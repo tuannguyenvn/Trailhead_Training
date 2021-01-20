@@ -1,0 +1,17 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": " Create Lightning Web Components",
+  "steps": [
+    {
+      "file": "force-app/main/default/lwc/app/app.js",
+      "line": 10,
+      "description": "Lifecycle Hooks. These events include when a component is:\r\n\r\nCreated\r\nAdded to the DOM\r\nRendered in the browser\r\nEncountering errors\r\nRemoved from the DOM\r\n\r\nIn the JavaScript file we used to test our conditional rendering, we used the connectedCallback() method to automatically execute code when the component is inserted into the DOM. The code waits 3 seconds, then sets ready to true."
+    },
+    {
+      "file": "force-app/main/default/lwc/app/app.html",
+      "line": 3,
+      "description": "The content in the “display” div tag doesn’t appear until the value of ready is true in the HTML file."
+    }
+  ],
+  "ref": "Ebikes"
+}
